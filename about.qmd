@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Me"
 image: profile.jpg
 about:
   template: jolla
@@ -14,4 +14,4 @@ about:
 
 #### My Resume
 
-![](_site/posts/welcomee/Chahana%20Dhakal.pdf){fig-align="center"}
+![](posts/EDA/cdhakal.pdf){width="900" height="900"}
