@@ -1,0 +1,17 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/dhakal_chahana
+    - icon: github
+      text: Github
+      href: https://github.com/dhakal-chahana
+---
+
+#### My Resume
+
+![](posts/welcome/Chahana%20Dhakal.pdf){fig-align="center" width="900" height="900"}

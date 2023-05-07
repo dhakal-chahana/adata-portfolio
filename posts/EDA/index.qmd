@@ -1,0 +1,67 @@
+---
+title: "Effect of socioeconomic factors on physical exercise rate"
+author: "Chahana Dhakal"
+date: "2023-05-03"
+categories: [news, code, analysis, visualization]
+image: "physica.jpg"
+---
+
+This post presents an exploratory data analysis on the Nutrition, Physical Activity, and Obesity -Behavioral Risk Factor Surveillance System provided by U.S. Department of Health & Human Services
+
+The dataset is available at : [Dataset](https://catalog.data.gov/dataset/nutrition-physical-activity-and-obesity-behavioral-risk-factor-surveillance-system "visit url")
+
+Dataset contains 22 columns and 14397 rows.
+
+First let import necessary library and load the dataset.
+
+```{r}
+# import neccessary library
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+data <- read.csv("data_Q047.csv")
+
+```
+
+```{r}
+# data description
+summary(data)
+```
+
+##### Data cleaning and wrangling
+
+```{r}
+
+#drop "total" value from observation
+data <- subset(data, Stratification1 != "Total")
+# Add percentage column which gives percentage of people involve in leisure time physical activity
+data <- mutate( data, percentage = 100- Data_Value)
+
+```
+
+#### Data Visualization
+
+Variation of physical activity involvement rate with education level
+
+```{r}
+data %>% filter(StratificationCategoryId1 == "EDU", Education != "Data not reported") %>% ggplot(aes(x = percentage)) + geom_histogram(bins = 50, fill = 'red', col = 'blue')+facet_wrap(vars(Education), ncol = 2, nrow = 2)
+```
+
+The histogram clearly shows that there is strong positive relationship between education level and involvement in leisure time physical activity. College graduates have highest median value whereas high school non graduates have lower median percentage involvement in physical activity.
+
+Variation of physical activity involvement rate with income level
+
+```{r}
+data %>% filter(StratificationCategoryId1 == "INC", Income!= "Data not reported") %>% ggplot(aes(x = percentage)) + geom_histogram(bins = 50, fill = 'red', col = 'blue')+facet_wrap(vars(Income), ncol = 2, nrow = 3)
+```
+
+This distribution also shows the similar results. People with higher income are likely to be involved in more physical activities.
+
+Variation of physical activity involvement rate with age
+
+```{r}
+data %>% filter(StratificationCategoryId1 == "AGEYR") %>% ggplot(aes(x = percentage)) + geom_histogram(bins = 50, fill = 'red', col = 'blue')+facet_wrap(vars(Age.years.), ncol = 2, nrow = 3)
+```
+
+Here, we can see the distribution of leisure time physical activity involvement rate shifts towards higher percentage while decreasing the age. It is because that young people are more active and tend to involve in physical activity.

@@ -1,0 +1,25 @@
+---
+title: "Data Analytics"
+author: "Chahana Dhakal"
+date: "2023-05-06"
+categories: [news]
+image: "analytics.avif"
+---
+
+### What is data analytics?
+
+![](Business_Analytics_vs_Data_Analytics.avif){fig-align="center"}
+
+The process of gathering, handling, and analyzing massive amounts of data in order to draw conclusions and make wise decisions is known as data analytics. In order to turn raw data into information that can be utilized to spot patterns, trends, and correlations, statistical and computational approaches must be used.
+
+Data analytics is a multidisciplinary field that integrates elements of business, computer science, statistics, and other fields. Data collecting, data cleaning, data preprocessing, exploratory data analysis, statistical modeling, and data visualization are just a few of the processes it covers. Finding useful insights in data that can be utilized to inform business choices is one of the main objectives of data analytics. Data analytics, for instance, can assist companies in understanding customer behavior, streamlining operational procedures, and spotting development prospects. It can also be used to find patterns and trends in huge datasets in industries like government, finance, and healthcare, which can help with policy creation and decision-making.
+
+Recent years have seen a substantial advancement in the field of data analytics due to the rising accessibility of massive datasets as well as improvements in processing capability and algorithmic development. Data analytics is now an essential part of many industries, and its significance is only anticipated to increase as more businesses look to use data to their advantage.
+
+### References
+
+1.  Kelleher, J. D., Tierney, B., & Tierney, B. (2018). Data Science An Introduction. CRC Press.
+
+2.  Provost, F., & Fawcett, T. (2013). Data science and its relationship to big data and data-driven decision making. Big Data, 1(1), 51-59.
+
+3.  The Data Incubator. (n.d.). What is Data Analytics? Retrieved from [**https://www.thedataincubator.com/what-is-data-analytics/**](https://www.thedataincubator.com/what-is-data-analytics/)

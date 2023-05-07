@@ -1,0 +1,38 @@
+---
+title: "WELCOME!"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+**Namaste! Welcome to my Data Analytics Portfolio.**
+
+#### [About me]{.underline}
+
+Hi, my name is Chahana Dhakal and I am happy to share a little bit about myself with you.
+
+Originally from the Fort Worth area, I recently graduated from the University of North Texas with a Bachelor's degree in Computer Information Systems for Business. At that time, I became very interested in the potential of data to transform organizations and drive innovation.
+
+I am currently pursuing my Masters degree with a specialization in Advanced Data Analytics and am now in my third semester of the program. I am particularly attracted to the field of data engineering where I can use my technical skills to design and implement robust systems that can handle large-scale data processing and storage.
+
+In addition to academic classes, I work as a Java developer, where I can put my programming skills into practice and gain practical experience in the software development industry.
+
+When I'm not studying or working, I love being outdoors. Hiking, traveling, camping and rafting are some of my favorite activities. I also like meeting new people, learning from their experiences and discovering new ideas.
+
+Overall, I'm happy to be part of this community and I'm happy to work with others who share my passion for data and technology.
+
+#### Contact
+
+If you have any questions or would like to collaborate on a project, feel free to reach out to me through the contact page.
+
+Thank you for visiting my portfolio website!
+
+| 
+
+## Blog Posts
