@@ -14,4 +14,4 @@ about:
 
 #### My Resume
 
-![](posts/welcome/Chahana%20Dhakal.pdf){fig-align="center" width="900" height="900"}
+![](_site/posts/welcomee/Chahana%20Dhakal.pdf){fig-align="center"}
